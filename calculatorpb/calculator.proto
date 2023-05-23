@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package calculator;
 
-option go_package = "github.con/quangtm-hblab/calculatorpb";
+option go_package = "github.con/quangtm-hblab/core-server/calculatorpb";
 
 message SumRequest{
     int32 num1 = 1;
